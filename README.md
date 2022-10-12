@@ -11,7 +11,7 @@
 > const ZeroAPI = require('zerolist');
 > const app = new ZeroAPI();
 > 
-> app.getBot('id').then(async (data) => {
+> app.botGet('id').then(async (data) => {
 >   await console.log(data)
 >   // Return >> Object;
 > })
@@ -22,7 +22,7 @@
 > const ZeroAPI = require('zerolist');
 > const app = new ZeroAPI();
 > 
-> app.getServer('id').then(async (data) => {
+> app.serverGet('id').then(async (data) => {
 >   await console.log(data)
 >   // Return >> Object;
 > })
@@ -33,7 +33,7 @@
 > const ZeroAPI = require('zerolist');
 > const app = new ZeroAPI();
 > 
-> app.getUser('id').then(async (data) => {
+> app.userGet('id').then(async (data) => {
 >   await console.log(data)
 >   // Return >> Object;
 > })
